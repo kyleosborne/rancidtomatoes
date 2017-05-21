@@ -1,0 +1,141 @@
+/*
+Kyle Osborne
+Rancid Tomatoes - movie review website
+
+Table of Contents
+banner - banner at top of the page
+title - title and year of movie 
+main - main content
+rating - section with tomato and rating
+tomato - css for tomato image in rating
+review - each individual review on the page
+reviews - section of the page with reviews 
+columns - created a column effect w/o CSS3
+overview - section of the page with cast and movie poster
+end - page number, bottom of main container
+overimg - overview image/movie poster
+validator - properties of HTML and CSS validator buttons
+*/
+body {
+	background-image: url('background.png'); 
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+}
+
+.banner {
+	
+	background-image: url('bannerbg.png');
+	background-size: 100%;
+	text-align: center;
+	height: 50px;
+	background-repeat: repeat-x;
+}
+
+.title {
+	text-align: center;
+	font-size: 32pt;
+	text-shadow: 3px 3px #999999;
+}
+
+main {
+	width: 800px;
+	margin: auto;
+	border: 4px solid gray;
+	border-radius: 20px;
+	overflow: hidden;
+	background-image: url('background.png');
+}
+
+.rating {
+	width: 550px;
+	background-image: url('rottenbg.png');
+	color: red;
+	font-size: 48pt;
+	vertical-align: middle;
+	height: 83px;
+}
+
+.tomato {
+	height: 83px;
+	vertical-align: top;
+}
+
+.review {
+	font-size: 8pt;
+	background-color: #E8DC9B;
+	border: 2px solid gray;
+	border-radius: 10px;
+	font-weight: bold;
+	padding: 8px;
+	border-spacing: 8px;
+}
+
+
+.reviews {
+	width: 550px;
+	
+}
+
+.columns {
+	/*TCreate columns with the reviews of movies*/
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.reviews2 {
+	float:right;
+	width: 47%;
+	margin-left: 1%;
+	margin-right: 2%;
+}
+
+.reviews1 {
+	float: left;
+	width: 47%;
+	margin-right: 1%;
+	margin-left: 2%;
+}
+
+.overview {
+	float: right;
+	font-family: arial;
+	width: 250px;
+	font-size: 8pt;
+	background: #A2B964;
+	height: 100%;
+	background-repeat: repeat-y;
+}
+
+.end {
+	width: 100%;
+	overflow:hidden;
+	background-color: #A2B964;
+	margin-bottom: -11px;
+	clear: both;
+}
+
+.page {
+	text-align: center;
+	padding: 5px;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.overimg {
+	width: 100%;
+}
+
+dt {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.validator {
+	opacity: 0.6;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+
+}
